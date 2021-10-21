@@ -149,7 +149,7 @@
   border-radius: 0 0 10px 0;
 }
 .promo-wrapper {
-  margin-bottom: 75px;
+  margin-bottom: 25px;
 }
 .promo-wrapper,
 .congrats-wrapper {
@@ -312,6 +312,15 @@
   70% {
     transform: scale(1, 1);
   }
+  
+ .congrats-wrapper button {
+
+}
+ .button1 .button1:hover {
+	 color: white;
+	 background: #009bd5;
+}
+
 }
 
 </style>
@@ -360,7 +369,15 @@
   <div class="congrats-wrapper">
 	  <span class="codeword"></span>
    	  <img id="img1" src="" width="200" height="200" style="margin-left: auto; margin-right: auto; display: block;"/>
-	  <button id ="button1" class="button1">다시하기</button>
+	  <button id="button1" class="button1" style="	  height:30px;
+	  width:150px;
+	  border-radius:8px;
+	  padding:10px;
+	  font-size:20px;
+	  font-family: 'Oswald', sans-serif;
+	  height:52px;
+	  cursor:pointer;
+	  background-color:wheat;">다시하기</button>
   </div>
   <div class="christmas-question">?</div>
 </div>
@@ -420,14 +437,14 @@ $(function(){
             $('.christmas-question').css('opacity', 0);
             $('.congrats-wrapper').css('opacity', 1);
 //             $('.congrats-wrapper span').eq(0).html(boxes[currentGift][0]);
-            document.getElementById('img1').src = "images/airpot.png";
+            document.getElementById('img1').src = "images/success.png";
             document.getElementById("button1").style.display="none";
         }else{
             $('.gift-wrapper').removeClass('jump');
             $('.christmas-question').css('opacity', 0);
             $('.congrats-wrapper').css('opacity', 1);
 //             $('.congrats-wrapper span').eq(0).html(boxes[currentGift][0]);
-            document.getElementById('img1').src = "images/fail.png";
+            document.getElementById('img1').src = "images/fail1.png";
 
         }
        	

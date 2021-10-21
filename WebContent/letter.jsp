@@ -90,7 +90,7 @@
 .envelope .back .letter p:nth-child(3) {
   font-size: 30px;
 	color: #f57882;
-	margin-top: 150px;
+	margin-top: 30px;
 	float: right;
 }
 .envelope .back {
@@ -370,7 +370,8 @@
   <div class="back">
     <div class="letter">
 		<p>유미에게 </p>
-		<p>생일 축하해1생일 축하해1생일 축하해1생일 축하해1생일 축하해1생일 축하해1생일 축하해1생일 축하해1생일 축하해1생일 축하해1생일 축하해1생일 축하해1생일 축하해1생일 축하해1생일 축하해1</p>
+		<p>유미야 생일 축하해~! <br>편지는 실제로 만나서 줬으니까 여기까지만 쓸게 ㅎ.ㅎ</p>
+		<p>다음</p>
     </div>
     <div class="flip left-flip"></div>
     <div class="flip right-flip"></div>

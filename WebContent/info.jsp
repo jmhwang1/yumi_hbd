@@ -92,8 +92,7 @@
 <section class="card">
   <figure class="panel meta">
     <picture>
-      <img class="avatar" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/67516/Screen_Shot_2015-11-18_at_11.47.23_AM.png" width="128" height="128"/>
-      <img class="company-logo" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/67516/b-01.png" alt="BigglesCodes" width="40" height="40"/>
+      <img class="avatar" src="images/yumi.jpg" width="128" height="128"/>
     </picture>
     <figcaption>
 
@@ -104,9 +103,12 @@
   </figure>
   
   <div class="panel info">
-	<p>123</p>
-    
-    
+	<p>이름 : 조유미</p>
+	<p>별명 : </p>
+	<p>키 : 168</p>
+	<p>혈액형 : A</p>
+	<p>MBTI : INFP</p>
+	<p>닮은꼴 : </p>
   </div>
   
 </section>
