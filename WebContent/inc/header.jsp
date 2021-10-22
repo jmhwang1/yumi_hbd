@@ -241,7 +241,7 @@
 	      <li id="li1" class="pull-left"><a href="<%=request.getContextPath()%>/info.jsp" data-direction="front">Home</a></li>
 	      <li id="li2" class="pull-left"><a href="<%=request.getContextPath()%>/gift.jsp" data-direction="back">Gift</a></li>
 	      <li id="li3" class="pull-left"><a href="<%=request.getContextPath()%>/letter.jsp" data-direction="top">Letter</a></li>
-	      <li id="li4" class="pull-left"><a href="#" data-direction="right">HBD</a></li>
+	      <li id="li4" class="pull-left"><a href="<%=request.getContextPath()%>/music.jsp" data-direction="right">HBD</a></li>
 	    </ul>
 	  </nav>
   </div>

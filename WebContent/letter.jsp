@@ -358,8 +358,6 @@
 }
 </style>
 
-
-
 <div class="envelope new">
   <div class="front">
     <div class="mail">
@@ -370,7 +368,7 @@
   <div class="back">
     <div class="letter">
 		<p>유미에게 </p>
-		<p>유미야 생일 축하해~! <br>편지는 실제로 만나서 줬으니까 여기까지만 쓸게 ㅎ.ㅎ</p>
+		<p>유미야 생일 축하해~! <br></p>
 		<p>다음</p>
     </div>
     <div class="flip left-flip"></div>
@@ -381,14 +379,17 @@
   
   <script>
   $(function(){
-
-	  if (!$('.envelope').hasClass('open')){
 	    $('.envelope').click(function(){
-	      $(this).removeClass('new').addClass('open');
+	    	if (!$('.envelope').hasClass('open')){
+	    		var result = prompt('비밀번호를 입력하세요');
+	    		if('1029486'===result) { $(this).removeClass('new').addClass('open'); 
+	    		} else { 
+		    		alert('삐-익')
+		    		return false; 
+	    		}
+	 	 	}
 	    });
-	  }
-	  
 	});
   </script>
-  
+  <!--   <script type="text/javascript" src="images/letter.js"></script> -->
 </div>

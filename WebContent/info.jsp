@@ -96,14 +96,14 @@
     </picture>
     <figcaption>
 
-      <h1 class="name">조유미</h1>
+      <h1 class="name" >조유미</h1>
       <h3 class="title">1996.10.29</h3>
       <h3 class="title"><a href = "https://instagram.com/yu_miii3?utm_medium=copy_link" target = "링크" >@yu_miii3 </a></h3>
     </figcaption>
   </figure>
   
   <div class="panel info">
-	<p>이름 : 조유미</p>
+    <h4 style="text-align:center">🎂🌈 ҉ 주인공 정보 ҉ 🌈🎂</h4>
 	<p>별명 : </p>
 	<p>키 : 168</p>
 	<p>혈액형 : A</p>
