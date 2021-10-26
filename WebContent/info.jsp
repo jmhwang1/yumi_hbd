@@ -107,7 +107,7 @@
 	<p>별명 : </p>
 	<p>키 : 168</p>
 	<p>혈액형 : A</p>
-	<p>MBTI : INFP</p>
+	<p>MBTI : ENFP</p>
 	<p>닮은꼴 : </p>
   </div>
   

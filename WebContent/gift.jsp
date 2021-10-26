@@ -154,8 +154,6 @@
 .promo-wrapper,
 .congrats-wrapper {
   width: 100%;
-  text-align: center;
-  padding: 2rem 0;
   border-radius: 10px;
   border: 2px solid rgba(255,255,255,0.2);
   background: rgba(255,255,255,0.4);
@@ -321,12 +319,13 @@
 	 background: #009bd5;
 }
 
+
 }
 
 </style>
 
 <div class="selby-gifts-section">
-  <div class="promo-wrapper"><span>선물을 고르세요</span></div>
+  <div class="promo-wrapper" style ="height: 50px;"><span style ="text-align:center;">선물을 고르세요</span></div>
   <div class="gift-bubbles">
     <div class="gift-bubble-wrapper">
       <div class="gift-bubble-item">?</div>
@@ -366,18 +365,19 @@
       <div class="gift-box"><span></span></div>
     </div>
   </div>
-  <div class="congrats-wrapper">
+  <div class="congrats-wrapper" style ="height: 300px; text-align: center;">
 	  <span class="codeword"></span>
    	  <img id="img1" src="" width="200" height="200" style="margin-left: auto; margin-right: auto; display: block;"/>
-	  <button id="button1" class="button1" style="	  height:30px;
-	  width:150px;
-	  border-radius:8px;
-	  padding:10px;
-	  font-size:20px;
-	  font-family: 'Oswald', sans-serif;
-	  height:52px;
-	  cursor:pointer;
-	  background-color:wheat;">다시하기</button>
+	  <button id="button1" class="button1" 
+	  	 style="height:52px;
+		  width:150px;
+		  border-radius:8px;
+		  font-size:20px;
+		  font-family: 'Oswald', sans-serif;
+		  cursor:pointer;
+		  background-color:wheat;
+		  position:relative;">다시하기
+	  </button>
   </div>
   <div class="christmas-question">?</div>
 </div>
