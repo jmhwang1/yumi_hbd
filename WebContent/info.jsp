@@ -104,11 +104,11 @@
   
   <div class="panel info">
     <h4 style="text-align:center">🎂🌈 ҉ 주인공 정보 ҉ 🌈🎂</h4>
-	<p>별명 : </p>
+	<p>별명 : 딸기모찌</p>
 	<p>키 : 168</p>
 	<p>혈액형 : A</p>
 	<p>MBTI : ENFP</p>
-	<p>닮은꼴 : </p>
+	<p>특기 : 애교 </p>
   </div>
   
 </section>

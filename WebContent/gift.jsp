@@ -7,12 +7,11 @@
 
 <style>
 .selby-gifts-section {
-  display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   position: relative;
-  padding-top: 16%;
+  padding-top: 10%;
 }
 .gift-bubbles {
   width: 100%;
@@ -174,6 +173,7 @@
   color: rgba(255,255,255,0.6);
   font-size: 180px;
   cursor: default;
+  text-align: center;
 }
 @-moz-keyframes wrapperHover {
   0% {
@@ -439,6 +439,13 @@ $(function(){
 //             $('.congrats-wrapper span').eq(0).html(boxes[currentGift][0]);
             document.getElementById('img1').src = "images/success.png";
             document.getElementById("button1").style.display="none";
+            Swal.fire({
+                icon: 'success',
+                title: '당첨🎉',
+                text: '상자 아래를 확인하세요!',
+            });
+//             https://wooncloud.tistory.com/12
+            
         }else{
             $('.gift-wrapper').removeClass('jump');
             $('.christmas-question').css('opacity', 0);

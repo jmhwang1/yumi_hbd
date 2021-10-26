@@ -34,8 +34,8 @@ border-radius:7px 7px 7px 7px ;
 <div style ="text-align:center;">
 	<img src="images/hbd.gif"/>
 	<br>
-	 <audio controls loop>
-	  <source src="//bit.ly/3euuS7B" type="audio/mpeg">
+	 <audio autoplay controls loop>
+	  <source src="images/music.mp3" type="audio/mpeg">
 	</audio>
 </div>
 

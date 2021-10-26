@@ -26,7 +26,16 @@
   <link rel="shortcut icon" href="<%=request.getContextPath()%>/images/icon.png" type="image/x-icon">
   <link rel="icon" href="myicon.ico" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap" rel="stylesheet">
- 
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<link href="jquery.modal.css" type="text/css" rel="stylesheet" />
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="jquery.modal.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+
  <style>
 	:focus {
 	  outline: none;

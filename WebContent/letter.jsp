@@ -86,12 +86,13 @@
 .envelope .back .letter p:nth-child(2) {
   font-size: 20px;
 	color: black;
+	margin: 0 0 3px;
 }
 .envelope .back .letter p:nth-child(3) {
-  font-size: 30px;
+  font-size: 17px;
 	color: #f57882;
-	margin-top: 30px;
 	float: right;
+	margin: 0 0 3px;
 }
 .envelope .back {
   transform: rotateY(180deg) translate3d(0, 0, 1px);
@@ -366,10 +367,7 @@
     </div>
   </div>
   <div class="back">
-    <div class="letter">
-		<p>유미에게 </p>
-		<p>유미야 생일 축하해~! <br></p>
-		<p>다음</p>
+    <div class="letter" id="lettertext">
     </div>
     <div class="flip left-flip"></div>
     <div class="flip right-flip"></div>
@@ -377,19 +375,7 @@
     <div class="flip top-flip"></div>
   </div>
   
-  <script>
-  $(function(){
-	    $('.envelope').click(function(){
-	    	if (!$('.envelope').hasClass('open')){
-	    		var result = prompt('비밀번호를 입력하세요');
-	    		if('1029486'===result) { $(this).removeClass('new').addClass('open'); 
-	    		} else { 
-		    		alert('삐-익')
-		    		return false; 
-	    		}
-	 	 	}
-	    });
-	});
-  </script>
-  <!--   <script type="text/javascript" src="images/letter.js"></script> -->
+<!--   <script> -->
+<!--   </script> -->
+    <script type="text/javascript" src="images/letter.js"></script>
 </div>
