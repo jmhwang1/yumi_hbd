@@ -89,6 +89,8 @@
 }
  
  </style>
+ 			<div class="container">
+				<div class="row">
 <section class="card">
   <figure class="panel meta">
     <picture>
@@ -112,6 +114,8 @@
   </div>
   
 </section>
+  </div>
+    </div>
 <script>
 
 </script>

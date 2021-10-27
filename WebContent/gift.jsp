@@ -7,11 +7,13 @@
 
 <style>
 .selby-gifts-section {
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   position: relative;
   padding-top: 10%;
+  text-align: center;
 }
 .gift-bubbles {
   width: 100%;
@@ -40,7 +42,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 580px;
+  width: 100%;
   margin-bottom: 75px;
 }
 .gift-wrapper {
@@ -164,16 +166,12 @@
   margin: 0.5rem 0;
 }
 .discount,
-.codeword {
-  color: #090;
-}
+
 .christmas-question {
-  position: absolute;
-  bottom: 30px;
   color: rgba(255,255,255,0.6);
   font-size: 180px;
   cursor: default;
-  text-align: center;
+  text-align:center;
 }
 @-moz-keyframes wrapperHover {
   0% {
@@ -318,12 +316,13 @@
 	 color: white;
 	 background: #009bd5;
 }
-
-
+.container {
+	width: 80%;
+}
 }
 
 </style>
-
+<div style="width: 40%; margin: auto;">
 <div class="selby-gifts-section">
   <div class="promo-wrapper" style ="height: 50px;"><span style ="text-align:center;">선물을 고르세요</span></div>
   <div class="gift-bubbles">
@@ -365,12 +364,16 @@
       <div class="gift-box"><span></span></div>
     </div>
   </div>
-  <div class="congrats-wrapper" style ="height: 300px; text-align: center;">
-	  <span class="codeword"></span>
-   	  <img id="img1" src="" width="200" height="200" style="margin-left: auto; margin-right: auto; display: block;"/>
+  
+  
+  
+  <div class="congrats-wrapper" style ="height: 300px; text-align: center; margin-bottom: 90px;">
+ 	  <p class="christmas-question">?</p>
+   	  <img class ="img1" id="img1" src="" width="200" height="200" style="margin-left: auto; margin-right: auto; display: block;"/>
 	  <button id="button1" class="button1" 
 	  	 style="height:52px;
 		  width:150px;
+		  height:50px; 
 		  border-radius:8px;
 		  font-size:20px;
 		  font-family: 'Oswald', sans-serif;
@@ -378,16 +381,20 @@
 		  background-color:wheat;
 		  position:relative;">다시하기
 	  </button>
+	  
   </div>
-  <div class="christmas-question">?</div>
 </div>
-
-
+</div>
 
 <script>
 $(function(){
     
-    $('.congrats-wrapper').css('opacity', 0);
+    $('.img1').css('opacity', 0);
+    $('.button1').css('opacity', 0);
+    $('.img1').css('width', 0);
+    $('.img1').css('height', 0);
+    $('.button1').css('height', 0);
+    $('.button1').css('width', 0);
     
     /* Данные */
     var currentGift;
@@ -435,7 +442,13 @@ $(function(){
         if('당첨'===boxes[currentGift][0]){
             $('.gift-wrapper').removeClass('jump');
             $('.christmas-question').css('opacity', 0);
-            $('.congrats-wrapper').css('opacity', 1);
+            $('.christmas-question').css('position', 'absolute');
+            $('.img1').css('opacity', 1);
+            $('.button1').css('opacity', 1);
+            $('.img1').css('width', 200);
+            $('.img1').css('height', 200);
+            $('.button1').css('height', 150);
+            $('.button1').css('width', 30);
 //             $('.congrats-wrapper span').eq(0).html(boxes[currentGift][0]);
             document.getElementById('img1').src = "images/success.png";
             document.getElementById("button1").style.display="none";
@@ -449,7 +462,13 @@ $(function(){
         }else{
             $('.gift-wrapper').removeClass('jump');
             $('.christmas-question').css('opacity', 0);
-            $('.congrats-wrapper').css('opacity', 1);
+            $('.christmas-question').css('position', 'absolute');
+            $('.img1').css('opacity', 1);
+            $('.button1').css('opacity', 1);
+            $('.img1').css('width', 200);
+            $('.img1').css('height', 200);
+            $('.button1').css('height', 50);
+            $('.button1').css('width', 150);
 //             $('.congrats-wrapper span').eq(0).html(boxes[currentGift][0]);
             document.getElementById('img1').src = "images/fail1.png";
 

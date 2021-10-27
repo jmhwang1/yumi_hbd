@@ -28,7 +28,9 @@ transition:all 0.5s linear;
 -webkit-border-radius:7px 7px 7px 7px ;
 border-radius:7px 7px 7px 7px ;
 }
- 
+img {
+	margin : 30px;
+	}
  </style>
 
 <div style ="text-align:center;">

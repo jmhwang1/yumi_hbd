@@ -52,7 +52,7 @@
 	  text-decoration: inherit;
 	}
 	img {
-	  display: block;
+/* 	  display: block; */
 	}
 	html body {
 	  height: 100vh;
@@ -62,7 +62,6 @@
 	/* *** End of Global *** */
 	body {
 	  background: radial-gradient(circle, #E8E2AE,#FFFFB4 0%);
-	  display: flex;
 	  justify-content: center;
 	  align-items: center;
 	}
@@ -85,7 +84,7 @@
 	}
 	
 	header {
-	    position: fixed;
+/* 	    position: fixed; */
 	    top: 8px;
 	    left: 0;
 	    right: 0;
@@ -232,27 +231,31 @@
  </head>
  <body>
  <header>
-	<div class ="headhbd">
-	  <span class='letter'>🎉</span>
-	  <span class='letter'>H</span>
-	  <span class='letter'>B</span>
-	  <span class='letter'>D</span>
-	  <span class='space'></span>
-	  <span class='letter'>Y</span>
-	  <span class='letter'>u</span>
-	  <span class='letter'>m</span>
-	  <span class='letter'>i</span>
-	  <span class='letter'>🎉</span>
-	</div>
-	<div>
-	  <nav class="text-center">
-	    <ul class="inline-block">
-	      <li id="li1" class="pull-left"><a href="<%=request.getContextPath()%>/info.jsp" data-direction="front">Home</a></li>
-	      <li id="li2" class="pull-left"><a href="<%=request.getContextPath()%>/gift.jsp" data-direction="back">Gift</a></li>
-	      <li id="li3" class="pull-left"><a href="<%=request.getContextPath()%>/letter.jsp" data-direction="top">Letter</a></li>
-	      <li id="li4" class="pull-left"><a href="<%=request.getContextPath()%>/music.jsp" data-direction="right">HBD</a></li>
-	    </ul>
-	  </nav>
+	<div class=" container">
+	 <div class="panel-group">
+		<div class ="headhbd">
+		  <span class='letter'>🎉</span>
+		  <span class='letter'>H</span>
+		  <span class='letter'>B</span>
+		  <span class='letter'>D</span>
+		  <span class='space'></span>
+		  <span class='letter'>Y</span>
+		  <span class='letter'>u</span>
+		  <span class='letter'>m</span>
+		  <span class='letter'>i</span>
+		  <span class='letter'>🎉</span>
+		</div>
+		<div>
+		  <nav class="text-center">
+		    <ul class="inline-block">
+		      <li id="li1" class="pull-left"><a href="<%=request.getContextPath()%>/info.jsp" data-direction="front">Home</a></li>
+		      <li id="li2" class="pull-left"><a href="<%=request.getContextPath()%>/gift.jsp" data-direction="back">Gift</a></li>
+		      <li id="li3" class="pull-left"><a href="<%=request.getContextPath()%>/letter.jsp" data-direction="top">Letter</a></li>
+		      <li id="li4" class="pull-left"><a href="<%=request.getContextPath()%>/music.jsp" data-direction="right">HBD</a></li>
+		    </ul>
+		  </nav>
+	  </div>
+	    </div>
   </div>
 </header>
  
